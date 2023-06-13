@@ -1,9 +1,9 @@
 const { Router } = require("express");
-const routerMain = Router();
 const getVideoGames = require("../controllers/getVideoGames");
 
 // Configurar los routers
 
+const routerMain = Router();
 //********************************************Obtener video juegos de la API */
 
 routerMain.get("/videogames", async (_req, res) => {
